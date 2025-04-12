@@ -1,6 +1,10 @@
+![Release version](https://img.shields.io/badge/status-in_progress-blue) 
+
+---
+
 # DUMB Language
 
-This repo contains the source code of the DUMB Language. It's a personal project made to have a better understanding of
+This repo contains the source code of the **DUMB Language**. It's a personal project made to have a better understanding of
 how interpreters and compiler works. "DUMB" is the acronym of "Don't Use Me Bro" (because it shouldn't be used in 
 production), and, well... it's quite funny because it also means "dumb" I guess... 
 
