@@ -1,4 +1,6 @@
-![Release version](https://img.shields.io/badge/status-in_progress-blue) 
+![Release version](https://img.shields.io/badge/status-in_progress-blue)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/Thomas-PEYROT/dumb-lang?color=0D0)
+![GitHub last commit](https://img.shields.io/github/last-commit/Thomas-PEYROT/dumb-lang?color=orange)
 
 # DUMB Language
 
