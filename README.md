@@ -1,7 +1,5 @@
 ![Release version](https://img.shields.io/badge/status-in_progress-blue) 
 
----
-
 # DUMB Language
 
 This repo contains the source code of the **DUMB Language**. It's a personal project made to have a better understanding of
