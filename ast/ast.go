@@ -1,7 +1,10 @@
 package ast
 
+import "bytes"
+
 type Node interface {
 	TokenLiteral() string // Returns the token literal value
+	String() string
 }
 
 // Statement is a type of Node. It's an instruction that doesn't "return" anything, by opposition to Expression.
@@ -27,4 +30,12 @@ func (p *Program) TokenLiteral() string {
 	} else {
 		return ""
 	}
+}
+
+func (p *Program) String() string {
+	var out bytes.Buffer
+	for _, s := range p.Statements {
+		out.WriteString(s.String())
+	}
+	return out.String()
 }
